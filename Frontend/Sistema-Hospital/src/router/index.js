@@ -8,21 +8,9 @@ import PersonView from '@/components/Person.vue'
 import RequestView from '@/components/RequestTransplant.vue'
 import TableRView from '@/components/TableRequest.vue'
 import OrgansView from '@/components/Organs.vue'
-import piepagina from '@/components/Pie-Pagina.vue'
-
-
-
-
-
-
 import OrganDetails from '@/components/Organ_Details.vue'
 import OrganForm from '@/components/OrganForm.vue'
-import PiePagina from '@/components/Pie-Pagina.vue'
-
-
-
-
-
+import PiePaginaView from '@/components/Pie-Pagina.vue'
 
 
 
@@ -63,16 +51,6 @@ const router = createRouter({
       name: 'organos',
       component: OrgansView
     }
-
-
-
-
-
-
-
-
-
-
     ,{
       path: '/organdetails',
       name: 'organdetails',
@@ -85,24 +63,10 @@ const router = createRouter({
       component: OrganForm
     },
     {
-      path: '/piepagina',
+      path: '/pie-pagina',
       name: 'piepagina',
-      component: PiePagina
+      component: PiePaginaView
     }
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
   ]
     },
     {
